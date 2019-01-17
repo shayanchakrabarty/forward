@@ -1,0 +1,30 @@
+  <!-- start section-3 -->
+  <section id="testimonials-sec" class="commn_outr">
+    <div class="container">
+      <div class="commn-hdr white-txt wow fadeInDown animated" data-wow-delay="0.4s">
+        <h3>Testimonials</h3>
+      </div>
+      <div class="customer_slide testimonial_mainslider testmonilamrgn wow fadeInUp animated" data-wow-delay="0.4s">
+
+        <% testimonials.forEach(function(testimonial) { %>
+        <div class="item">
+          <div class="customer_slidein">
+            <div class="cust_dtlsout text-center">
+              <div class="cm-testimonial__info ">
+                <div class="cm-testimonial__author "><%= testimonial.testimonial_person_name %></div>
+                <div class="cm-testimonial__company "><%= testimonial.testimonial_date %></div>
+              </div>
+            </div>
+            <div class="cust_contet">
+              <div class="testricon-overlay text-left"><i class="fa fa-quote-left"></i></div>
+              <div class="cust_innercontent">
+                <%- testimonial.testimonial_content %>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% }); %>
+
+      </div>
+    </div>
+  </section>

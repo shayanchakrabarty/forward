@@ -1,0 +1,721 @@
+
+/***************************** Custom *******************************/
+@media (min-width: 1600px){
+	
+}
+@media (min-width: 1720px) {
+	
+}
+
+@media (max-width: 1600px) {
+	
+}
+
+@media (max-width: 1440px) {
+	
+}
+
+@media (max-width: 1366px) {
+	
+}
+
+@media (max-width: 1280px){
+	
+}
+
+@media (max-width: 1199px) {
+	.container {
+	    width: 90%;
+	}
+	p { font-size: 14px; }
+	.rightnav-menu img {
+	    height: 26px;
+	}
+	.navbar-nav {
+	    margin-top: 3px;
+	    float: left;
+	}
+	section.banner-sec .intro-text .intro-lead-in {
+	    font-size: 28px;
+	    margin-bottom: 25px;
+	    letter-spacing: 7px;
+	}
+	section.banner-sec .intro-text .intro-heading {
+	    font-size: 45px;
+	    line-height: 40px;
+	    margin-bottom: 20px;
+	}
+	section.banner-sec .intro-text .intro-foo {
+	    font-size: 30px;
+	    letter-spacing: 1px;
+	    line-height: 40px;
+	}
+	section.banner-sec ol.carousel-indicators {
+	    left: 9%;
+	    bottom: 100px;
+	}
+	.commn-hdr h3 {
+	    font-size: 38px;
+	}
+	.contact-head h3 {
+	    font-size: 37px;
+	}
+	.review_profile_img p {
+	    font-size: 14px;
+	}
+	.sendbtn {
+	    font-size: 16px;
+	    padding: 15px 30px;
+	}
+	li.fooqlink-sec img {
+	    width: 25px;
+	    height: 25px;
+	    margin-right: 12px;
+	}
+	li.fooqlink-sec p {
+	    padding-top: 0;
+	}
+	.footer_logo img {
+	    width: 200px;
+	}
+	.foolink-hesd {
+	    font-size: 32px;
+	}
+	.footer_logo {
+	    margin-bottom: 45px;
+	}
+	.foo-copyright {
+	    font-size: 14px;
+	}
+	.buying-innerbdy img {
+	    height: 85px;
+	    width: auto;
+	}
+	.commn-hdr {
+	    margin-bottom: 30px;
+	}
+	.customer_slidein {
+	    margin: 15px 80px;
+	}
+	.statickbanner { min-height: 88vh; }
+	/* 3-1-19 */
+	.aboutban_txt { top:50%; }
+	.aboutban_txt .ban_txt_inner h1 { font-size: 38px; }
+}
+@media (max-width:1080px) {
+	.contact-head h3 {
+	    font-size: 20px;
+	}
+	.logo { width: 200px; }
+	.statickbanner { min-height: 70vh; }
+	section.banner-sec .intro-text { margin-bottom: 7%; }
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 35px;
+	}
+	.baout-body p, .teammain-body p, #whyforward p, .teammem-foo ul li p {
+	    font-size: 15px;
+	}
+	.aboutban_txt {
+	    top: 45%;
+	}
+	.contact-head h3 {
+	    font-size: 30px;
+	}
+	.commn_outr {
+	    padding: 40px 0 0 0;
+	}	.commn-hdr h3 {
+	    font-size: 35px;
+	}
+	.cust_contet i {
+	    font-size: 35px;
+	}
+}
+	
+	
+@media (max-width:1024px) {
+    
+}
+
+@media (max-width: 991px) {
+	.top_nav ul li {
+	    margin-right: 0;
+		margin-left: 30px;
+	}
+    .container {
+	    width: 95%;
+	}
+	.logo img {
+	    width: 200px;
+	}
+	.rightnav-menu img {
+	    height: 24px;
+	}
+	section.banner-sec .intro-text .intro-lead-in {
+		font-size: 25px;
+		margin-bottom: 25px;
+		letter-spacing: 4px;
+	}
+	section.banner-sec .intro-text .intro-heading {
+		font-size: 35px;
+		line-height: 40px;
+		margin-bottom: 15px;
+	}
+	section.banner-sec .intro-text .intro-foo {
+	    font-size: 24px;
+	    letter-spacing: 1px;
+	    line-height: 40px;
+	}
+	section.banner-sec ol.carousel-indicators {
+	    left: 7%;
+	    bottom: 90px;
+	}
+	.commn-hdr {
+	    margin-bottom: 40px;
+	}
+	.commn-hdr h3 {
+	    font-size: 35px;
+	}
+	.buying-innerbdy img {
+	    width: 75px;
+	}
+	.buying-innerbdy img {
+	    height: 75px;
+	    width: auto;
+	}
+	.commn_outr {
+	    padding: 50px 0 0 0;
+	    text-align: center;
+	}
+	.cm-testimonial__author {
+	    font-size: 18px;
+	}
+	.contact-head h3 {
+	    font-size: 28px;
+	}
+	.customer_slidein {
+	    padding: 40px 60px;
+	    margin: 5px 80px;
+	}
+	.footer_logo img {
+	    width: 180px;
+	}
+	.footer-innr-barcode img {
+	    width: 85px;
+	    height: 85px;
+	    margin-right: 31px;
+	    margin-bottom: 20px;
+	}
+	.foolink-hesd {
+	    font-size: 28px;
+	}
+	li.fooqlink-sec img {
+	    width: 23px;
+	    height: 23px;
+	}
+	.top_nav ul li a { font-size: 16px; }
+	.navbar-nav {
+	    margin-top: 2px;
+	}
+	.buying-innerbdy p { font-size: 14px; }
+	.cust_contet i { font-size: 35px; }
+	/* 3-1-19 */
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 32px;
+	}
+	.aboutban_txt .ban_txt_inner h5 p { font-size: 20px; }
+	.baout-body p, .teammain-body p, #whyforward p {
+	    margin-bottom: 6px;
+	    line-height: 24px;
+	}
+}
+
+@media (max-width: 870px) {
+    .contact-head h3 {
+	    font-size: 30px;
+	}
+	.contact-form input, textarea {
+	    padding: 12px;
+	}
+	.contact-form textarea {
+	    height: 70px;
+	}
+	.sendbtn {
+	    font-size: 15px;
+	    padding: 12px 30px;
+	}
+	section.banner-sec ol.carousel-indicators {
+	    left: 7.5%;
+	    bottom: 60px;
+	}
+	section.banner-sec .intro-text .intro-foo { font-size: 24px; }
+	section.banner-sec .intro-text .intro-heading {
+		font-size: 35px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	section.banner-sec .intro-text .intro-lead-in {
+	    font-size: 24px;
+		margin-bottom: 20px;
+		letter-spacing: 3px;
+	}
+	.commn-hdr h3 {
+	    font-size: 35px;
+	}
+	.buying-innerbdy h4 { font-size: 16px; }
+	.contact-head h3 {
+	    font-size: 27px;
+	}
+	.footer-innr-barcode img {
+	    width: 75px;
+	    height: 75px;
+	}
+	.top_nav ul li {
+	    margin-right: 0;
+		margin-left: 30px;
+	}
+	.customer_slidein {
+	    padding: 40px 40px;
+	    margin: 5px 80px;
+	}
+	.statickbanner {
+	    min-height: 64vh;
+	}
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 28px;
+	}
+	.aboutban_txt {
+	    top: 40%;
+	}
+	.teammem-info h5 { font-size: 18px; }
+	.teammem-foo ul li img {
+	    width: 18px;
+	    height: 18px;
+	}
+	.teammain-body p, .teammem-foo ul li p {
+	    font-size: 13px;
+	}
+	.contact-head {
+	    margin-bottom: 20px;
+	}
+	.teammain-body p { line-height: 18px; }
+}
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 767px){
+	.logo { margin-top: 0; }
+	.logo img {
+	    width: 180px;
+	}
+	div#navigation {
+	    display: flex;
+	    border: 0;
+	    box-shadow: none;
+	}
+	.top_nav ul li a {
+	    font-size: 14px;
+	}
+	.rightnav-menu img {
+	    height: 22px;
+	}
+	#navigation .navbar-nav, .rightnav-menu {
+	    margin-top: -20px;
+	}
+	section.banner-sec .intro-text .intro-lead-in {
+	    font-size: 22px;
+	    margin-bottom: 15px;
+	    letter-spacing: 3px;
+	}
+	section.banner-sec .intro-text .intro-heading {
+		font-size: 28px;
+		line-height: 28px;
+		margin-bottom: 10px;
+	}
+	section.banner-sec .intro-text .intro-foo {
+	    font-size: 22px;
+	    letter-spacing: 1px;
+	    line-height: 30px;
+	}
+	section.banner-sec ol.carousel-indicators {
+	    left: 8%;
+	    bottom: 60px;
+	}
+	.commn-hdr {
+	    margin-bottom: 30px;
+	}
+	.commn_outr {
+	    padding: 35px 0 0 0;
+	    text-align: center;
+	}
+	.customer_slidein {
+	    padding: 30px 25px;
+	    margin: 5px 50px;
+	}
+	.cust_contet i {
+	    font-size: 28px;
+	}
+	.cm-testimonial__author {
+	    font-size: 16px;
+	    margin-bottom: 5px;
+	}
+	.contact-head h3 {
+	    font-size: 24px;
+	}
+	.commn-hdr h3 {
+	    font-size: 32px;
+	}
+	.cm-testimonial__company { font-size: 14px; }
+	.sendbtn {
+	    font-size: 13px;
+	    padding: 10px 15px;
+	}
+	.footer_logo {
+	    margin-bottom: 25px;
+	}
+	.footer-body .col-sm-8 { margin-bottom: 30px; }
+	.footer-innr-barcode img {
+	    width: 85px;
+	    height: 85px;
+	    margin-right: 10px;
+	    margin-bottom: 15px;
+	}
+	.footer-body {
+	    padding: 35px 0;
+	}
+	.foolink-hesd {
+	    font-size: 24px;
+	}
+	.contact-form input, textarea {
+	    padding: 10px;
+	}
+	.buying-innerbdy-border:not(:last-child) {
+	    border-right: none;
+	    margin-bottom: 15px;
+	}
+	.contact-head h3 {
+	    font-size: 22px;
+	}
+	.customer_slidein {
+	    padding: 30px 25px;
+	    margin: 15px;
+	}
+	/* 2-1-19 */
+	.statickbanner {
+	    min-height: 60vh;
+	}
+	footer .col-sm-4 { margin-bottom: 15px; }
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 24px;
+	}
+	.aboutban_txt {
+	    top: 35%;
+	}
+	.teammain {
+	    margin-top: 30px;
+	}
+	.teammain .teammain-body:nth-child(2) .teammin-common4 {
+	    float: none;
+	}
+	.teammain-body p, .teammem-foo ul li p {
+	    font-size: 15px;
+	}
+	.teammain-body p {
+	    line-height: 20px;
+	}
+	.teammem-info {
+	    display: flex;
+	    margin: 20px 0 20px;
+	}
+	.teammin-common8 {
+	    margin-top: 20px;
+	}
+	li.fooqlink-sec p { font-size: 15px; }
+	.footer-menu ul li a { font-size: 15px; }
+	.whyforward8 {
+	    padding-right: 0;
+	    padding-left: 30px;
+	    padding-bottom: 20px;
+	}
+	.col4 {
+	    display: block;
+	    align-items: flex-end;
+	    margin-bottom: 25px;
+	}
+	.flwewforward {
+	    display: block;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	}
+	#contact-sec .col-xs-6 {
+	    width: 100%;
+	    margin-bottom: 25px;
+	}
+	#contact-sec .col-xs-6 {
+	    width: 100%;
+	    margin-bottom: 0;
+	    margin-top: 25px;
+	}
+	#contact-sec {
+	    margin-bottom: 0;
+	}
+	.whyforward8 { padding-left: 0; }
+	.footer-menu {
+	    margin-left: 15px;
+	}
+}
+
+@media(max-width:667px){
+	.statickbanner {
+	    min-height: 54vh;
+	}  
+	.logo img {
+	    width: 160px;
+	} 
+	.aboutban_txt .ban_txt_inner h5 p {
+	    font-size: 18px;
+	    margin: 15px 0;
+	    margin-left: 40px;
+	}
+	.aboutban_txt {
+	    top: 30%;
+	}
+	.aboutban_txt .ban_txt_inner h5::before { width: 35px; }
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 22px;
+	}
+}
+
+@media (max-width:640px){
+    section.banner-sec .intro-text { margin-bottom: 5%; }
+}
+
+@media (max-width:600px){
+	#navigation .navbar-nav { display: none; }
+	/*section.banner-sec .intro-text {
+	    top: 60%;
+	}*/
+	section.banner-sec .intro-text .intro-lead-in {
+	    font-size: 18px;
+	    margin-bottom: 10px;
+	    letter-spacing: 3px;
+	}
+	section.banner-sec .intro-text .intro-heading {
+	    font-size: 26px;
+	    line-height: 30px;
+	    margin-bottom: 10px;
+	}
+	section.banner-sec ol.carousel-indicators {
+	    left: 9%;
+	    bottom: 25px;
+	}
+	section.banner-sec .intro-text .intro-foo {
+	    font-size: 18px;
+	    letter-spacing: 1px;
+	    line-height: 30px;
+	}
+	.contact-head h3 {
+	    font-size: 22px;
+	}
+	.contact-form input, textarea {
+	    padding: 8px 10px;
+	}
+	/* 29-12-18 */
+	.rightnav-menu {
+	    display: block;
+	}
+	.top_nav ul li {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+	.statickbanner {
+	    min-height: 47vh;
+	} 
+	/* 3-1-19 */
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 18px;
+	}
+	.aboutban_txt {
+	    top: 25%;
+	}
+	.aboutban_txt .ban_txt_inner h5 p { font-size: 16px; }
+}
+
+@media (max-width:568px){
+    .footer_logo img {
+	    width: 160px;
+	}
+	#contact-sec {
+	    margin-bottom: 0;
+	}
+	.statickbanner {
+	    min-height: 42vh;
+	}
+	section.banner-sec .intro-text { margin-bottom: 3%; }
+}
+
+@media (max-width:484px){
+	.logo img {
+	    width: 140px;
+	}
+	.footer_logo img {
+	    width: 140px;
+	}
+	.rightnav-menu img {
+	    height: 17px;
+	}
+	section.banner-sec .intro-text .intro-lead-in {
+	    font-size: 16px;
+	    margin-bottom: 5px;
+	    letter-spacing: 2px;
+	}
+	section.banner-sec .intro-text .intro-heading {
+	    font-size: 20px;
+	    line-height: 30px;
+	    margin-bottom: 0px;
+	}
+	section.banner-sec ol.carousel-indicators {
+	    left: 11%;
+	    bottom: 12px;
+	}
+	section.banner-sec .intro-text .intro-foo {
+	    font-size: 16px;
+	    letter-spacing: 1px;
+	    line-height: 30px;
+	}
+	.carousel-indicators .active, .carousel-indicators li { width: 10px;height: 10px; }
+	.testimonial_mainslider .owl-dot span, .owl-dot.active { width: 10px;height: 10px; }
+	.commn-hdr h3 {
+	    font-size: 28px;
+	}
+	.foolink-hesd {
+	    font-size: 22px;
+	}
+	.footer-innr-barcode img {
+	    width: 75px;
+	    height: 75px;
+	}
+	.footer-menu {
+	    margin-bottom: 20px;
+	    margin-left: 15px;
+	}
+	.commn-hdr {
+	    margin-bottom: 20px;
+	}
+	#navigation .navbar-nav, .rightnav-menu {
+	    margin-top: -15px;
+	}
+	.logo-sec { position: sticky; }
+	.logo { width: auto; }
+	.statickbanner {
+	    min-height: 37vh;
+	}
+	/* 3-1-2019 */
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 16px;
+	}
+	.aboutban_txt {
+	    top: 22%;
+	}
+	.aboutban_txt .ban_txt_inner h5 p {
+	    font-size: 14px;
+	}
+	/*.aboutban_txt .ban_txt_inner h5 p { margin: 10px 0; }*/
+}
+@media (max-width:420px) {
+	.statickbanner {
+	    min-height: 32vh;
+	}
+	section.banner-sec .intro-text {
+	    margin-bottom: 0%;
+	}
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 14px;
+	}
+	.aboutban_txt {
+	    top: 20%;
+	}
+	.aboutban_txt .ban_txt_inner h5 p {
+	    margin: 10px 0;
+	    margin-left: 40px;
+	}
+}
+@media (max-width:384px) {
+	.logo img {
+	    width: 140px;
+	}
+	section.banner-sec .intro-text .intro-lead-in {
+	    font-size: 14px;
+	    margin-bottom: 4px;
+	    letter-spacing: 1px;
+	}
+    section.banner-sec .intro-text .intro-heading {
+	    font-size: 16px;
+	    line-height: 19px;
+	    margin-bottom: 0px;
+	}
+	section.banner-sec .intro-text .intro-foo {
+	    font-size: 13px;
+	    line-height: 22px;
+	}
+	section.banner-sec ol.carousel-indicators {
+	    left: 13%;
+	    bottom: 0px;
+	}
+	.commn-hdr h3 {
+	    font-size: 24px;
+	}
+	.contact-head h3 {
+	    font-size: 20px;
+	}
+	.commn_outr {
+	    padding: 25px 0 0 0;
+	}
+	.statickbanner {
+	    min-height: 29vh;
+	}
+	.aboutban_txt .ban_txt_inner {
+	    margin-left: 42%;
+	    text-align: left;
+	}
+	.aboutban_txt .ban_txt_inner h1 {
+	    font-size: 13px;
+	}
+	.aboutban_txt .ban_txt_inner h5 p {
+	    font-size: 12px;
+	}
+	.aboutban_txt {
+	    top: 18%;
+	}
+	.teammain-body p, .teammem-foo ul li p {
+	    font-size: 13px;
+	}
+	.teammem-info {
+	    display: flex;
+	    margin: 15px 0 15px;
+	}
+	.baout-body p, .teammain-body p, #whyforward p, .teammem-foo ul li p {
+	    font-size: 14px;
+	}
+}
+
+@media (max-width:350px) {
+	.statickbanner {
+	    min-height: 27vh;
+	}
+}	
+@media (max-width:330px) {	
+	.statickbanner {
+	    min-height: 25vh;
+	}
+}
+
+
+
+
+
+

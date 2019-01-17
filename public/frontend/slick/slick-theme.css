@@ -1,0 +1,49 @@
+/* Arrows */
+.center .slick-prev,
+.center .slick-next
+{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 139px;
+    height: 139px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #ffb6c1;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    
+}
+.center .slick-prev:hover:before,
+.center .slick-prev:focus:before,
+.center .slick-next:hover:before,
+.center .slick-next:focus:before
+{
+    opacity: 1;
+}
+.center .slick-prev.slick-disabled:before,
+.center .slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+
+
+.center .slick-prev
+{
+    left: 23%;
+    background: url(../images/caretL.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.center .slick-next
+{
+    right: 23%;
+    background: url(../images/caretR.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+

@@ -1,0 +1,763 @@
+/*font-awesome*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'MoskNormal400';
+    src: url('../fonts/vision-webfont.eot');
+    src: url('../fonts/vision-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vision-webfont.woff2') format('woff2'),
+         url('../fonts/vision-webfont.woff') format('woff'),
+         url('../fonts/vision-webfont.svg#MoskNormal400') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'visionlight';
+    src: url('../fonts/vision-light-webfont.eot');
+    src: url('../fonts/vision-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vision-light-webfont.woff2') format('woff2'),
+         url('../fonts/vision-light-webfont.woff') format('woff'),
+         url('../fonts/vision-light-webfont.svg#visionlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'visionheavy';
+    src: url('../fonts/vision-heavy-webfont.eot');
+    src: url('../fonts/vision-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vision-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/vision-heavy-webfont.woff') format('woff'),
+         url('../fonts/vision-heavy-webfont.svg#visionheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'visionitalic';
+    src: url('../fonts/vision-regular_italic-webfont.eot');
+    src: url('../fonts/vision-regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vision-regular_italic-webfont.woff2') format('woff2'),
+         url('../fonts/vision-regular_italic-webfont.woff') format('woff'),
+         url('../fonts/vision-regular_italic-webfont.svg#visionitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'KotoriRoseBold';
+    src: url('../fonts/vision-bold-webfont.eot');
+    src: url('../fonts/vision-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vision-bold-webfont.woff2') format('woff2'),
+         url('../fonts/vision-bold-webfont.woff') format('woff'),
+         url('../fonts/vision-bold-webfont.svg#KotoriRoseBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'visionthin';
+    src: url('../fonts/vision-thin-webfont.eot');
+    src: url('../fonts/vision-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vision-thin-webfont.woff2') format('woff2'),
+         url('../fonts/vision-thin-webfont.woff') format('woff'),
+         url('../fonts/vision-thin-webfont.svg#visionthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KotoriRoseRegular';
+    src: url('../fonts/KotoriRoseRegular.eot');
+    src: url('../fonts/KotoriRoseRegular.eot') format('embedded-opentype'),
+         url('../fonts/KotoriRoseRegular.woff2') format('woff2'),
+         url('../fonts/KotoriRoseRegular.woff') format('woff'),
+         url('../fonts/KotoriRoseRegular.ttf') format('truetype'),
+         url('../fonts/KotoriRoseRegular.svg#KotoriRoseRegular') format('svg');
+}
+@font-face {
+    font-family: 'KotoriRoseBold';
+    src: url('../fonts/KotoriRoseBold.eot');
+    src: url('../fonts/KotoriRoseBold.eot') format('embedded-opentype'),
+         url('../fonts/KotoriRoseBold.woff2') format('woff2'),
+         url('../fonts/KotoriRoseBold.woff') format('woff'),
+         url('../fonts/KotoriRoseBold.ttf') format('truetype'),
+         url('../fonts/KotoriRoseBold.svg#KotoriRoseBold') format('svg');
+}
+@font-face {
+    font-family: 'MoskNormal400';
+    src: url('../fonts/MoskNormal400.eot');
+    src: url('../fonts/MoskNormal400.eot') format('embedded-opentype'),
+         url('../fonts/MoskNormal400.woff2') format('woff2'),
+         url('../fonts/MoskNormal400.woff') format('woff'),
+         url('../fonts/MoskNormal400.ttf') format('truetype'),
+         url('../fonts/MoskNormal400.svg#MoskNormal400') format('svg');
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #000;
+	background: #ffffff;
+	font-family: 'visionlight';
+	line-height: normal;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #c19f5f;
+	outline: none !important;
+	border: none;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+a:hover, a:focus {
+	color: #c0a05e;
+	text-decoration: none;
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: normal;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+img {
+	width:100%;
+	border: none;
+	transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	font-family: 'MoskNormal400';
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+::-webkit-input-placeholder {
+	color: #ababab;
+	opacity: 1;
+}
+:-moz-placeholder {
+	color: #ababab;
+	opacity: 1;
+}
+::-moz-placeholder {
+	color: #ababab;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #ababab;
+	opacity: 1;
+}
+input, textarea {
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+::-moz-selection {
+	background: #3188c1;
+}
+::selection {
+	background: #3188c1;
+}
+p::-moz-selection {
+	background: #3188c1;
+}
+p::selection {
+	background: #3188c1;
+}
+a:hover { color: #c19f5f !important; } 
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.hdr-sec {
+    display: table;
+    width: 100%;
+    padding: 15px 0;
+    /* transition: all 0.5s; */
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    position: relative;
+}
+.logo-sec {
+    display: table-cell;
+    vertical-align: middle;
+}
+.logo {
+    width: 244px;
+    display: block;
+    transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    position: relative;
+    z-index: 9999;
+    margin-top: 10px;
+}
+.logo img {
+    width: 100%;
+}
+.rght-hdr {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+.menu-sec {
+    display: inline-block;
+}
+.navbar {
+    min-height: auto;
+    margin: 0;
+}
+.navbar-header {
+    text-align: right;
+    float: none;
+}
+.navbar-nav {
+    margin-top: 7px;
+    float: left;
+}
+.navbar-nav > li > a {
+    padding: 0;
+}
+/* start toggle side nav */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    background: #c19f5f;
+    padding: 0;
+    border-left: 1px solid #d0ad50;
+}
+.sidenav {
+    /*right: -3000px;*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 45px;
+    color: #fff;
+    background: #000;
+    border-radius: 100%;
+    line-height: 20px;
+    padding: 5px 6px;
+    height: 30px;
+    width: 30px;
+}
+.sidenav ul {
+    position: absolute;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+.sidenav ul li {
+    margin: 0 0 5px;
+    display: inline-block;
+    width: 100%;
+    padding-right: 20px;
+    background: none;
+    position: relative;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+}
+ul.mobilemenu li:hover { color: #c19f5f !important;background: #fff;  }
+.sidenav ul li a { 
+    color: #000 !important;
+    font-family: 'KotoriRoseBold';
+    text-transform: uppercase;
+    white-space: nowrap;
+    position: relative;
+    line-height: 2;
+}
+/* End toggle side nav */
+.top_nav ul li a {
+    color: #fff;
+    font-size: 17px;
+    display: block;
+    background: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    font-family: 'MoskNormal400';
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.mobilemenu li.active {
+    background: #fff;
+    color: #c19f5f;
+}
+.mobilemenu { padding-left: 0 !important; }
+.top_nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 65px;
+    background: none;
+    position: relative;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+}
+div#navigation {
+    display: flex;
+}
+ul.rightnav-menu li { margin-right: 0 !important;margin-top: -5px; }
+.banner-sec {
+    position: relative;
+    color: #fff;
+}
+section.banner-sec .intro-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10%;
+    width: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+section.banner-sec .intro-text .intro-lead-in {
+    font-size: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+    font-family: 'MoskNormal400';
+}
+section.banner-sec ol.carousel-indicators {
+    left: 10%;
+    bottom: 160px;
+}
+section.banner-sec .intro-text .intro-heading {
+	font-size: 50px;
+    color: #d2ac67;
+    text-transform: uppercase;
+    line-height: 40px;
+	font-family: 'KotoriRoseBold';
+	margin-bottom: 40px;
+}
+section.banner-sec .intro-text .intro-foo {
+	font-size: 42px;
+	letter-spacing: 1px;
+    line-height: 40px;
+	font-family: 'KotoriRoseRegular';
+}
+/* start footer section */
+footer { background: #1f1f2f;color: #fff; }
+.footer-body { padding: 50px 0; }
+.footer_logo img {
+    width: 200px;
+    text-align: left;
+}
+.footer_logo { margin-bottom: 30px; }
+.foolink-hesd {
+    font-family: 'KotoriRoseRegular';
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.footer-menu ul li a { color: #fff;font-family: 'KotoriRoseRegular';font-size: 16px; }
+li.fooqlink-sec {
+    display: flex; margin-top: 10px;
+}
+.footer-menu {
+    margin-bottom: 30px;
+}
+li.fooqlink-sec img { width:24px;height: 24px; margin-right: 12px; }
+li.fooqlink-sec p a { color: #fff; }
+li.fooqlink-sec p { font-family: 'KotoriRoseRegular';font-size: 16px; }
+.foo-copyright {
+	font-family: 'MoskNormal400';
+	color:#fff;
+}
+.footer-innr-barcode {
+    display: flex;
+}
+.footer-innr-barcode img {
+    width: 96px;
+    height: 96px;
+    margin-right: 31px;
+    margin-bottom: 20px;
+}
+.commn_outr {
+    padding: 60px 0 0 0;
+    text-align: center;
+}
+.commn-hdr {
+    margin-bottom: 30px;
+}
+.commn-hdr h3 {
+    font-family: 'KotoriRoseBold';
+    font-size: 50px;
+}
+.review_profile_img { text-align: left;margin-bottom: 20px; }
+/*.review_profile_img img {
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+}*/
+.review_profile_img p {
+	line-height: 24px;
+	font-family: 'KotoriRoseBold';
+}
+.buying-innerbdy-border:not(:last-child) { border-right: 1px solid #f2e8d5; }
+.buying-innerbdy-border:nth-child(2) .buying-innerbdy h4 { color: #d2ac67; }
+.buying-innerbdy {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.buying-innerbdy h4 { 
+	font-family: 'KotoriRoseBold';
+	margin-bottom: 10px;
+}
+.buying-innerbdy img {
+    height: 95px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.buying-innerbdy p {
+	line-height: 22px;
+    font-family: 'MoskNormal400';
+    font-size: 16px;
+}
+.contact-head h3 {
+    font-family: 'KotoriRoseBold';
+    font-size: 40px;
+}
+.contact-head { margin-bottom: 30px; }
+.contact-form input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: 0;
+    border: 1px solid #d9d9d9;
+    color: #000;
+    border-radius: 5px;
+}
+.contact-form textarea { height: 100px; }
+.sendbtn {
+    border-radius: 5px; 
+    font-size: 18px;
+    padding: 15px 45px;
+    font-weight: 500;
+    position: relative;
+    background: #dd220b;
+    border: 1px solid #dd220b;
+    font-family: 'KotoriRoseRegular';
+    color: #fff !important;
+}
+.sendbtn:hover { background: #c19f5f;border: 1px solid #c19f5f;color: #fff !important; }
+.contact-form p { margin-bottom: 15px; }
+.contactform_body form div { padding-left: 0; padding-right: 0; }
+#contact-sec { margin-bottom: 60px; }
+
+/* start testimonials slider */
+.cust_img {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: auto;
+    border: 1px solid #dd220b;
+    margin-bottom: 15px;
+}
+.cm-testimonial__author {
+    font-family: 'KotoriRoseBold';
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 8px;
+}
+.cm-testimonial__company {
+    margin-bottom: 10px;
+    font-family: 'MoskNormal400';
+    font-size: 15px;
+    font-weight: 700;
+    color: #999;
+}
+.cust_contet i {
+    font-size: 40px;
+    left: 20px;
+    top: 15px;
+    background: #fff;
+    padding: 3px;
+    color: #c19f5f;
+}
+.testricon-overlay {
+    text-align: left;
+    margin-top: -45px;
+    margin-bottom: 10px;
+}
+.cust_innercontent p {
+    line-height: 24px;
+}
+.customer_slidein {
+    padding: 40px 80px;
+    margin: 15px 100px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2)
+}
+.testimonial_mainslider .owl-controls {
+    text-align: center;
+}
+.testimonial_mainslider .owl-dot {
+    display: inline;
+}
+.testimonial_mainslider .owl-controls {
+    text-align: center;
+    margin-top: 25px;
+}
+.testimonial_mainslider .owl-dot.active span {
+    background: #f1111b;
+}
+.testimonial_mainslider .owl-dot span {
+    height: 12px;
+    width: 12px;
+    background: #f8888d;
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.testimonial_mainslider .owl-dot span {
+    height: 12px;
+    width: 12px;
+    background: #d8d8d8;
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+/* end testimonials slider */
+#back2Top {
+    width: 40px;
+    height: 40px;
+    line-height: 46px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #c19f5f;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    color: #fff !important;
+    cursor: pointer;
+}
+/*.review_profile_imgc img {
+    max-height: 350px;
+}*/
+.review_profile_imgc {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+    margin-bottom: 30px;
+}
+.review_profile_imgc:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.review_profile_imgc img {
+    transition: all .5s ease 0s;
+}
+.rightnav-menu:hover { cursor: pointer; }
+
+/* 29-12-18 */
+.rightnav-menu {
+    display: none;
+}
+.footer-social-icon {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.footer-social-icon a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.fa-twitter:hover {
+    color: #19aced;
+}
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+.sidenav ul li {
+    margin-right: 65px;
+    margin-left: 0;
+}
+.statickbanner {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+.footer-menu ul li { margin-bottom: 15px; }
+/* Start About us page design */
+.aboutban_txt {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.aboutban_txt .ban_txt_inner h1 {
+    font-family: 'KotoriRoseRegular';
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.4;
+}
+.aboutban_txt .ban_txt_inner h5:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 60px;
+    height: 1px;
+    background: #c19f5f;
+}
+.aboutban_txt .ban_txt_inner h5 p {
+    font-family: 'KotoriRoseRegular';
+    font-size: 22px;
+    color: #c19f5f;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin: 30px 0;
+    position: relative;
+    margin-left: 70px;
+    line-height: 20px;
+}
+.aboutban_txt .ban_txt_inner {
+    margin-left: 48%;
+    text-align: left;
+}
+.baout-body p, .teammain-body p, #whyforward p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.teammain {
+    margin-top: 70px;
+}
+.teammem-foo ul li img {
+    width: 24px;
+    height: 24px;
+}
+.teammem-foo ul li p a {
+    color: #000;
+}
+.teammem-foo ul li p {
+    padding-top: 0;
+    font-size: 16px;
+    font-family: 'KotoriRoseRegular';
+}
+.teammem-info {
+    display: flex;
+    margin: 35px 0 20px;
+}
+.teammem-info a {
+    color: #fff;
+    background: #0075b3;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.teammem-info .fa-linkedin:hover, .teammem-info a:hover {
+    color: #fff !important;
+}
+.teammem-info h5 {
+    color: #0075b3;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'KotoriRoseRegular';
+}
+.teammain .teammain-body:nth-child(2) .teammin-common4 { float: right; }
+.teammain-body { margin-bottom: 50px; }
+section#whyforward {
+    background: #f7f7f7;
+}
+.whyforward8 {
+    padding-right: 70px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.flwewforward {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.col4 {
+    display: flex;align-items: flex-end;
+}
+/* End About us page design */
+
+/* 7-1-19 Footer */
+.copyrightsec {
+    border-top: 1px solid #4c4c59;
+    padding-top: 25px;
+}
+.foolink-hesd:after {
+    position: absolute;
+    content: '';
+    background: #c19f5f;
+    width: 40px;
+    height: 2px;
+    top: 40px;
+    left: 18px;
+}
