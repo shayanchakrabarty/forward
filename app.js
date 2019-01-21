@@ -111,7 +111,8 @@ app.use('/', main);
 
 
 // app listen to the port
-const port = 3000;
+//const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => { 
   console.log("Server Running at port " + port);
 });

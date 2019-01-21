@@ -5,7 +5,8 @@ var AboutSchema = mongoose.Schema({
     type: String
   },
   banner_image: {
-    type: String
+    type: String,
+    default : null
   },
   about_title: {
     type: String
@@ -23,7 +24,8 @@ var AboutSchema = mongoose.Schema({
     type: String
   },
   why_forward_image: {
-    type: String
+    type: String,
+    default: null
   },
   testimonial_title: {
     type: String

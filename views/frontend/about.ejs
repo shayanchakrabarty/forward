@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <title>Forward: Our Story | Why Forward</title>
+  <title><%= title %></title>
   <meta name="description" content="" />
   <meta name="author" content="admin" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -69,16 +69,12 @@
   <!-- banner -->
   <section class="ban_sec">
     <div class="ban_img">
-      <img src="frontend/images/about-banner.jpg" alt="aboutbanner">
+      <img src="uploads/<%= aboutData.banner_image %>" alt="aboutbanner">
     </div>
     <div class="aboutban_txt">
       <div class="container">
         <div class="ban_txt_inner">
-          <h1 class="wow fadeInDown animated" style="visibility: visible;">All our dreams can come true, if we have the
-            courage to pursue them.</h1>
-          <h5 class="wow fadeInUp animated" style="visibility: visible;">
-            <p>Walt Disney</p>
-          </h5>
+          <%- aboutData.banner_content %>
         </div>
       </div>
     </div>
@@ -90,30 +86,10 @@
   <section id="features" class="commn_outr">
     <div class="container">
       <div class="commn-hdr white-txt wow fadeInDown">
-        <h3>About FORWARD</h3>
+        <h3><%= aboutData.about_title %></h3>
       </div>
       <div class="baout-body text-center wow fadeInRight" data-wow-delay="0.2s">
-        <p>We aspire to streamline the business sale and acquisition process and strive to secure our clients against
-          the pitfalls throughout the entire course.</p>
-
-        <p>Whetheryou are buying the business to support yourself or your family, to facilitate your career change, to
-          leverage your capital, or maybe just for the next great thing in your life, we have all the success stories
-          you would love to have your own.</p>
-
-        <p>Check out a few of our testimonials. We believe it takes empathy on top of expertise and experience to take
-          forward a mutually satisfying deal.</p>
-
-        <p>You won’t find hundreds of listings at any point in time here as you might somewhere else where you would
-          feel confused as much as we did.</p>
-
-        <p>We pride ourselves on presenting you a top-notch 15% from more than 200 businesses we appraise a year,
-          valued from as low as $30,000 up to $3,000,000, ranging from lucrative bricks and mortar shops, flexible
-          e-commerce to high performing and scalable equity investees.</p>
-
-        <p>The decision is yours.</p>
-
-        <p>Our responsibility is to ensure that you are making a thoroughly informed decision, and whenever you are
-          ready, you always have the best route heading straight and safely towards your destination.</p>
+       <%- aboutData.about_content %>
       </div>
     </div>
   </section>
@@ -122,124 +98,11 @@
   <section id="teaminfo" class="commn_outr">
     <div class="container">
       <div class="commn-hdr white-txt wow fadeInDown">
-        <h3>Meet the Team</h3>
+        <h3><%= aboutData.meet_team_heading %></h3>
       </div>
-      <div class="teammain">
-        <div class="teammain-body clearfix">
-          <div class="col-md-4 col-sm-4 teammin-common4 wow fadeInDown" data-wow-delay="0.2s">
-            <div class="teammem-img"><img src="frontend/images/team-img1.png"></div>
-            <div class="teammem-info">
-              <a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
-              <h5>Jack Lee 李富霖</h5>
-            </div>
-            <div class="teammem-foo">
-              <ul>
-                <li class="fooqlink-sec">
-                  <img src="frontend/images/about-phon.png">
-                  <p><a href="tel:0405 211 100">0405 211 100</a></p>
-                </li>
-                <li class="fooqlink-sec">
-                  <img src="frontend/images/about-email.png">
-                  <p><a href="mailto:jack@forwardbusiness.com.au">jack@forwardbusiness.com.au</a></p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-8 col-sm-8 text-left teammin-common8 wow fadeInDown" data-wow-delay="0.4s">
-            <div class="contact-head">
-              <h3>Jack Lee</h3>
-            </div>
-            <p>Maybe you will find your story has something in common with mine.</p>
+      <% include ./partials/teams %>
+      
 
-            <p>I came to study at Monash University in Melbourne in 1993. Having graduated, I spent the first 10 years
-              of my career back in Malaysia, where I was born, and Singapore working for OCBC Bank and Capgemini.</p>
-
-            <p>In 2004, I came back and settled down in Sydney with my family and continued my corporate life with
-              Optus, Westpac, and Macquarie Bank. Another decade went by.</p>
-
-            <p>In 20 years timeat an office, I was longing for change. Change for my own fulfillment and my family. I
-              founded an online company, a language school, two IT companies and invested in some private firms.</p>
-
-            <p>I came across business brokering in 2012. A year later, I finally brought an end to my corporate life
-              and became a dedicated business broker.</p>
-
-            <p>It is such a privilege that I witnessed some profoundly inspiring stories of my buyers and experienced
-              the utmost pleasure from facilitating their successes.</p>
-
-            <p>A Chinese lady bought a managed café where she secured her permanent residency while everything around
-              including English was unfamiliar to her.</p>
-
-            <p>An Indian office worker quitted his job, exactly as I did years ago, and devoted himself to his passion,
-              a lovely party shop.</p>
-
-            <p>A white collar managed to find a way out by joining a franchise chain when his career was full of
-              uncertainty in the face of a depressed industry.</p>
-
-            <p>A young mum found the balance between her kids and her pursuit for a hospitality business by owning a
-              managed takeaway restaurant.</p>
-
-            <p>It was not intended. But as an Asian immigrant myself, I happened to have the opportunities to serve a
-              great many buyers from Asian backgrounds mostly for their very first business acquisitions in Australia.</p>
-
-            <p>I have made it my mission to enable you the best route heading straight and safely to a great business.</p>
-          </div>
-        </div>
-        <div class="teammain-body clearfix">
-          <div class="col-md-4 col-sm-4 teammin-common4 wow fadeInDown" data-wow-delay="0.2s">
-            <div class="teammem-img"><img src="frontend/images/team-img2.png"></div>
-            <div class="teammem-info">
-              <a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a>
-              <h5>Rooney Zhou</h5>
-            </div>
-            <div class="teammem-foo">
-              <ul>
-                <li class="fooqlink-sec">
-                  <img src="frontend/images/about-phon.png">
-                  <p><a href="tel:0425 533 830">0425 533 830</a></p>
-                </li>
-                <li class="fooqlink-sec">
-                  <img src="frontend/images/about-email.png">
-                  <p><a href="mailto:rooney@forwardbusiness.com.au">rooney@forwardbusiness.com.au</a></p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-8 col-sm-8 text-left teammin-common8 wow fadeInDown animated" data-wow-delay="0.4s">
-            <div class="contact-head">
-              <h3>Rooney Zhou</h3>
-            </div>
-            <p>Just like most students from China, I was once struggling to get the degree while working several
-              part-time jobs for a living. I also had a few internships to decorate a compelling resume.</p>
-
-            <p>Having graduated in 2014 from USyd, luckily I was offered a job at last while most of my fellows were
-              not asfar as I knew. I didn't have many choices and debuting at a multinational conglomerate was not too
-              bad either.</p>
-
-            <p>Fair pay and involvement in some real projects. It was quite productive for 2 years until I realized my
-              circumstances wouldn't have much surprise in the foreseeable future. Income wise and fulfillment wise, I
-              saw how far I could go as an employee who never had the autonomy that I was longing for.</p>
-
-            <p>However, I thought of no other possibility other than hanging in there since there were still too many
-              of my fellows and the graduating students who wanted to squeeze in. I could never outsmart them.</p>
-
-            <p>Then I hopped into business brokering in 2016 given my background in promoting Australian manufacturers
-              towards distributors and investors in China. Surprisingly it was, in fact, my clients who substantiated
-              the possibilities that I had thought could never be mine.</p>
-
-            <p>A young man at his 20s took over a convenience store working there for himself and reaping more income
-              than he could earn from any other part-time job then.</p>
-
-            <p>A fresh Chinese graduate started up his first ever business via acquiring a longstanding florist in a
-              major shopping centre.</p>
-
-            <p>They were just like most of the first-time buyers with a tight budget and least experience. Not everyone
-              was born with a phenomenal talent or a silver spoon in the mouth.</p>
-
-            <p>Inspired by their courage and creativity, I strive to identify the wealth of possibilities for more
-              people like them and formulate the securest route marching forward.</p>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
   <!-- End team section -->
@@ -247,75 +110,19 @@
   <section id="whyforward" class="commn_outr">
     <div class="container-fluid flwewforward">
       <div class="whyforwardflex col4 wow fadeInRight animated" data-wow-delay="0.2s">
-        <img src="frontend/images/team-img3.png">
+        <img src="uploads/<%= aboutData.why_forward_image %>">
       </div>
       <div class="whyforwardflex col8 text-left whyforward8 wow fadeInDown animated" data-wow-delay="0.4s">
         <div class="contact-head wow fadeInDown animated" data-wow-delay="0.4s">
-          <h3>Why FORWARD?</h3>
+          <h3><%= aboutData.why_forward_heading %></h3>
         </div>
-        <p>At FORWARD, we hate to sermonize on our clients.</p>
-
-        <p>We are renowned for our pragmatic yet empathic approaches by giving neither textbook answers nor exaggerated
-          advice that disrupts your decision.</p>
-
-        <p>We implement a securebuying process, offering our buyers a no-obligation timeframe to investigate the
-          business so that you will be assured for any decision.</p>
-
-        <p>We practically engage in every step of your acquisition. We have proven records in securing major leases and
-          franchises for our least experienced first-time buyers with a 100% success rate.</p>
-
-        <p>More importantly, many of our first-time buyers had bettered the previous owners immediately after the
-          take-over.</p>
-
-        <p>If you haven’t spoken to us, I would strongly recommend you give us a call now.</p>
-
-        <p>Don’t worry. You will never be speaking toa pushy salesperson.</p>
+        <%- aboutData.why_forward_content %>
       </div>
     </div>
   </section>
 
   <% include ./partials/testimonial %>
-  <!-- start section-4 -->
-  <section id="contact-sec" class="commn_outr">
-    <div class="container">
-      <div class="col-lg-6 col-sm-6 col-xs-6 text-left">
-        <div class="contact-head wow fadeInDown animated" data-wow-delay="0.4s">
-          <h3>Can’t find what you want? Let us call you back</h3>
-        </div>
-        <div class="contactform_body company_logo_txt wow fadeInLeft" data-wow-delay="0.4s">
-          <form>
-            <div class="col-sm-12 col-md-12">
-              <div class="contact-form">
-                <input type="text" name="name" placeholder="Name">
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-12">
-              <div class="contact-form">
-                <input type="phone" name="phone-number" placeholder="Phone">
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-12">
-              <div class="contact-form">
-                <textarea name="message" placeholder="What this is About?"></textarea>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-12">
-              <div class="contact-form">
-                <p class="sdf">Jack or Rooney will call you back within 24 hours.</p>
-              </div>
-            </div>
-            <div class="col-md-12 col-sm-12" style="margin-top: 15px;">
-              <a href="#" class="button buy-now sendbtn contform-btm">Request a Call Back</a>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-lg-6 col-sm-6 col-xs-6 imgzoom text-left wow fadeInUp" data-wow-delay="0.6s">
-        <img src="frontend/images/contact-sideimg.png">
-      </div>
-    </div>
-  </section>
-  <!-- start section-4 -->
+ 
 
   <!-- footer sec -->
   <footer>

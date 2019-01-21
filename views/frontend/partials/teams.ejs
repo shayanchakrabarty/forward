@@ -1,0 +1,32 @@
+<div class="teammain">
+<% teams.forEach(function(team) { %>
+  <div class="teammain-body clearfix">
+    <div class="col-md-4 col-sm-4 teammin-common4 wow fadeInDown" data-wow-delay="0.2s">
+      <div class="teammem-img"><img src="uploads/<%= team.member_image %>"></div>
+      <div class="teammem-info">
+        <a href="<%= team.member_linkedin_link %>"><i class="fa fa-linkedin"></i></a>
+        <h5><%= team.member_name_en %> <%= team.member_name_cn %></h5>
+      </div>
+      <div class="teammem-foo">
+        <ul>
+          <li class="fooqlink-sec">
+            <img src="frontend/images/about-phon.png">
+            <p><a href="tel:<%= team.member_phone %>"><%= team.member_phone %></a></p>
+          </li>
+          <li class="fooqlink-sec">
+            <img src="frontend/images/about-email.png">
+            <p><a href="mailto:<%= team.member_email %>"><%= team.member_email %></a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-8 col-sm-8 text-left teammin-common8 wow fadeInDown" data-wow-delay="0.4s">
+      <div class="contact-head">
+        <h3><%= team.member_name_en %></h3>
+      </div>
+        <%- team.member_content %>
+    </div>
+  </div>
+  <% }); %>
+
+</div>
